@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentacion',
+  title: 'Documentación',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -44,14 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Luisdaries/Project-for-learning/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -72,13 +65,13 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'right',
-            label: 'Documentación',
-          },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'right',
+          //   label: 'Documentación',
+          // },
+          {to: '/docs/intro', label: 'Documentación', position: 'right'},
           {
             href: 'https://github.com/Luisdaries/Project-for-learning',
             label: 'GitHub',
